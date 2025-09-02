@@ -1,0 +1,77 @@
+body{
+    background-image: url(img/background2.jpg);
+    background-position:top;
+    background-size: cover;
+    background-attachment: local;
+    overflow: scroll;
+
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(44, 44, 44, 0.578);
+    border-radius: 30px;
+
+}
+
+
+h1{font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:lawngreen;
+    text-align: center;
+}
+figure{
+    text-align: center;
+}
+
+.buttons {
+background-size: 100px;
+    background-color: lawngreen;
+    height: 40px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  margin-bottom: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.scooter_list{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: white;
+}
+p{font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.total_bar{
+    width: 100%;
+    height: 40px;
+    background-color: #eeeeee00;
+    margin: 10px 0;
+}
+.gino_bar{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(225, 147, 52);
+    border-radius: 10px;
+}
+.mike_bar{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(23, 181, 28);
+    border-radius: 10px;
+}
+.fede_bar{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(170, 33, 33);
+    border-radius: 10px;
+}
+
